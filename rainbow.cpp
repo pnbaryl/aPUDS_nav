@@ -17,7 +17,7 @@ void color_from_sine(float percentage, uint8_t (&ledValues)[3]) {
 int main() {
   std::cout << "Creating rainbow effect!" << std::endl;
   uint8_t rgb_array[3];
-  while (true) {
+  for (int i = 0; i <= 3; i++){
     int steps = 1000;
     for (int i = 0; i <= steps; i++) {
       float ratio = static_cast<float>(i) / static_cast<float>(steps);
