@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/PID.dir/PID.cpp.o -o PID   -L/home/pi/navigator-lib/examples/cpp/../../target/debug  -Wl,-rpath,/home/pi/navigator-lib/examples/cpp/../../target/debug -lbluerobotics_navigator 

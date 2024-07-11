@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../target/debug/bindings.h
+cstdarg
+-
+cstdint
+-
+cstdlib
+-
+ostream
+-
+new
+-
+
+/home/pi/navigator-lib/examples/cpp/rainbow.cpp
+bindings.h
+/home/pi/navigator-lib/examples/cpp/bindings.h
+chrono
+-
+cmath
+-
+iostream
+-
+thread
+-
+stdint.h
+-
+stdio.h
+-
+string.h
+-
+sys/utsname.h
+-
+unistd.h
+-
+time.h
+-
+
