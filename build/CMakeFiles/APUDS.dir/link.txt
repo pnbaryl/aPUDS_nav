@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/APUDS.dir/APUDS.cpp.o -o APUDS   -L/home/pi/navigator-lib/examples/cpp/../../target/debug  -Wl,-rpath,/home/pi/navigator-lib/examples/cpp/../../target/debug -lbluerobotics_navigator 
